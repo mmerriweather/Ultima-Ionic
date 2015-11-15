@@ -1,0 +1,127 @@
+/* Empty. Add your own CSS if you like */
+
+/* Styles here */
+
+body {}
+
+.coverimage{
+	background-image: url(img/bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-color:#464646;
+}
+.masthead{
+  background-image: url('http://i61.tinypic.com/3518fh1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: normal;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");
+}
+
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: bold;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");
+}
+
+.ion-person{
+  /*padding-left:268px;*/
+  font-size: 24px;
+  color:#FF2D55;
+}
+
+.ion-search{
+  padding-left:200px;
+  font-size: 24px;
+  color:#FF2D55;
+  text-align: right;
+
+}
+.forest{
+  color:#ececeec;
+  font-weight: 100;
+  text-align:center;
+}
+.northern{
+  color:#ececeec;
+  font-weight: 100;
+  text-align:center;
+}
+.barscale{
+  /* Rectangle 32: */
+background: #EEEEEE;
+border-radius: 14px;
+/* Rectangle 32: */
+background-image: linear-gradient(-90deg, #B1FC33 0%, #F13166 100%);
+border-radius: 14px;
+width: 200px;
+text-align: right;
+padding:5px;
+}
+.clear {clear: both}
+.from-them {
+  position: relative;
+  padding: 10px 20px;
+  background: #E5E5EA;
+  border-radius: 25px;
+  color: black;
+  float: left;
+  margin-left: 70px;
+}
+.from-them:before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  bottom: -2px;
+  left: -7px;
+  height: 20px;
+  border-left: 20px solid #E5E5EA;
+  border-bottom-right-radius: 16px 14px;
+  -webkit-transform: translate(0, -2px);
+}
+.from-them:after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  bottom: -2px;
+  left: 4px;
+  width: 26px;
+  height: 20px;
+  background: white;
+  border-bottom-right-radius: 10px;
+  -webkit-transform: translate(-30px, -2px);
+}
+.avatar {
+width: 80px;
+	height: 80px;
+  border-radius: 40px; 
+  margin: 10px;
+}
+
